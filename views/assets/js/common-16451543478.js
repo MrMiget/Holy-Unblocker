@@ -70,7 +70,7 @@ window.goProx = {
     },
     womginx: function(url, stealth) {
         setAuthCookie("wgauth=yes", false);
-        goToUrl("https://a." + getDomain() + "/main/" + omnibox(url), stealth);
+        goToUrl("https://womginx.arph.org" + "/main/" + omnibox(url), stealth);
     },
     searx: function(stealth) {
         setAuthCookie("oldsmobile=badcar", true);
